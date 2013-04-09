@@ -24,11 +24,21 @@ Themes provided include:
 
 ## Installation
 
-There is a LESS file named social-buttons.less that can be included with a custom Bootstrap build.
+Once you have cloned the repo, if you are using CSS then:
+
+1. Include Bootstrap and Font Awesome in your app (see [this guide](http://www.bootstrapcdn.com/#tab_fontawesome))
+2. Include social-buttons.css in your app
+3. Start using buttons!
+
+Or if you are using LESS then:
+1. Ensure Font Awesome is imported into your app (as CSS or LESS)
+2. Import social-buttons.less into bootstrap.less
+3. Build Bootstrap
+4. Start using buttons.
 
 Note: if you want to use Font Awesome, you should disable the icons mixin (by removing the sprites.less import in bootstrap.less).
 
-## Author
+## Authors
 
 [Adam Neumann][0]
 
