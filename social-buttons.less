@@ -1,0 +1,68 @@
+//
+// Bootstrap Social Buttons
+// --------------------------------------------------
+
+// The colours
+// --------------------------------------------------
+
+// Facebook colours from ???
+@btnFacebookBackground:             #3B5998;
+@btnFacebookBackgroundHighlight:    #133783;
+
+// Twitter colours from https://twitter.com/
+@btnTwitterBackground:              #0271bf;
+@btnTwitterBackgroundHighlight:     #2daddc;
+
+// Github colours from http://ghbtns.com/
+@btnGithubBackground:               #e6e6e6;
+@btnGithubBackgroundHighlight:      #fafafa;
+@btnGithubText:                     #000000;
+@btnGithubTextShadow:               0 0.7px 0 rgba(0,0,0,.1);
+
+// Pinterest colours from http://pinterest.com/
+@btnPinterestBackground:            #ab171e;
+@btnPinterestBackgroundHighlight:   #d62229;
+
+// Linkedin colours from http://www.linkedin.com/
+@btnLinkedinBackground:             #4393BB;
+@btnLinkedinBackgroundHighlight:    #73b8db;
+
+// Google Plus colours from https://accounts.google.com/ServiceLogin?service=oz&continue=https://plus.google.com/?gpsrc%3Dgplp0%26partnerid%3Dgplp0&hl=en-GB
+@btnGooglePlusBackground:           #c53727;
+@btnGooglePlusBackgroundHighlight:  #dd4b39;
+
+// Instagram colours from http://instagram.com
+@btnInstagramBackground:            #6f97b6;
+@btnInstagramBackgroundHighlight:   #3f729b;
+
+
+// The social buttons
+// --------------------------------------------------
+
+.btn-facebook {
+  .buttonBackground(@btnFacebookBackground, @btnFacebookBackgroundHighlight);
+}
+
+.btn-twitter {
+  .buttonBackground(@btnTwitterBackground, @btnTwitterBackgroundHighlight);
+}
+
+.btn-github {
+  .buttonBackground(@btnGithubBackground, @btnGithubBackgroundHighlight, @btnGithubText, @btnGithubTextShadow);
+}
+
+.btn-pinterest {
+  .buttonBackground(@btnPinterestBackground, @btnPinterestBackgroundHighlight);
+}
+
+.btn-linkedin {
+  .buttonBackground(@btnLinkedinBackground, @btnLinkedinBackgroundHighlight);
+}
+
+.btn-google-plus {
+  .buttonBackground(@btnGooglePlusBackground, @btnGooglePlusBackgroundHighlight);
+}
+
+.btn-instagram {
+  .buttonBackground(@btnInstagramBackground, @btnInstagramBackgroundHighlight);
+}
