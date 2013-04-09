@@ -1,100 +1,108 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Bootstrap Social Buttons : Social media button styles for Twitter Bootstrap" />
+    <meta name="description" content="Social Buttons for Twitter Bootstrap" />
 
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
 
-    <title>Bootstrap Social Buttons</title>
+    <title>Social Buttons for Twitter Bootstrap</title>
   </head>
-
   <body>
+    <!-- Layout roughly inspired by http://heelhook.github.io/chardin.js/ -->
+    <div class="container">
+        <section>
+            <h1>Social Buttons <small>for Twitter Bootstrap</small></h1>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/noizwaves/bootstrap-social-buttons">View on GitHub</a>
+            <a href="https://github.com/noizwaves/bootstrap-social-buttons"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 
-          <h1 id="project_title">Bootstrap Social Buttons</h1>
-          <h2 id="project_tagline">Social media button styles for Twitter Bootstrap</h2>
+            <p>Gorgeous, vector, Retina-ready, and customisable social media buttons using <a href="http://twitter.github.io/bootstrap/">Bootstrap</a> and <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>.</p>
+        </section>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/noizwaves/bootstrap-social-buttons/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/noizwaves/bootstrap-social-buttons/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+        <section>
+            <div class="row">
+                <div class="span4 pull-center">
+                    <h3><i class="icon-group"></i> Social</h3>
+                    <button class="btn btn-facebook"><i class="icon-facebook"></i> | Connect with Facebook</button><br>
+                    <button class="btn btn-twitter"><i class="icon-twitter"></i> | Connect with Twitter</button><br>
+                    <button class="btn btn-github"><i class="icon-github"></i> | Connect with Github</button><br>
+                    <button class="btn btn-pinterest"><i class="icon-pinterest"></i> | Connect with Pinterest</button><br>
+                    <button class="btn btn-linkedin"><i class="icon-linkedin"></i> | Connect with LinkedIn</button><br>
+                    <button class="btn btn-google-plus"><i class="icon-google-plus"></i> | Connect with Google Plus</button><br>
+                    <button class="btn btn-instagram"><i class="icon-camera-retro"></i> | Connect with Instagram</button>
+                </div>
+                <div class="span4 pull-center">
+                    <h3><i class="icon-resize-full"></i> Size</h3>
+                    <button class="btn btn-xlarge btn-twitter"><i class="icon-twitter"></i> | Connect with Twitter</button><br>
+                    <button class="btn btn-large btn-twitter"><i class="icon-twitter"></i> | Connect with Twitter</button><br>
+                    <button class="btn btn-twitter"><i class="icon-twitter"></i> | Connect with Twitter</button><br>
+                    <button class="btn btn-small btn-twitter"><i class="icon-twitter"></i> | Connect with Twitter</button><br>
+                    <button class="btn btn-mini btn-twitter"><i class="icon-twitter"></i> | Connect with Twitter</button>
+                </div>
+                <div class="span4 pull-center">
+                    <h3><i class="icon-align-left"></i> Content</h3>
+                    <button class="btn btn-twitter"><i class="icon-twitter"></i> | Connect with Twitter</button><br>
+                    <button class="btn btn-twitter">Connect with Twitter</button><br>
+                    <button class="btn btn-twitter"><i class="icon-twitter"></i> | Connect</button><br>
+                    <button class="btn btn-twitter">Twitter</button><br>
+                    <button class="btn btn-twitter"><i class="icon-twitter"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="span12">
+                    <h3>Usage</h3>
+                    <button class="btn btn-facebook"><i class="icon-facebook"></i> | Connect with Facebook</button><br>
+                    <p>is just 1 line of HTML code:</p>
+                    <pre class="prettyprint lang-html linenums">&lt;button class="btn btn-facebook"&gt;&lt;i class="icon-facebook"&gt;&lt;/i&gt; | Connect with Facebook&lt;/button&gt;</pre>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="span12">
+                    <h3>Installation</h3>
+                    <p>
+                        Full instructions can be found <a href="https://github.com/noizwaves/bootstrap-social-buttons">here</a>, but basically:
+                        <ol>
+                            <li>Clone the git repo</li>
+                            <li>Add the social-buttons.less mixin to the bootstrap.less file</li>
+                            <li>Build bootstrap</li>
+                            <li>Use buttons!</li>
+                        </ol>
+                    </p>
+
+                    <h3>Requirements</h3>
+                    <p>
+                        <ul>
+                            <li><a href="https://github.com/twitter/bootstrap">Bootstrap 2.3.1</a> (older versions may work)</li>
+                            <li><a href="http://www.bootstrapcdn.com/#tab_fontawesome">Font Awesome 3.0.2</a> - if you want icons inside the buttons</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="span12 pull-center">
+                    <p>Made with <i class="icon-heart"></i> by <a href="https://github.com/noizwaves">@noizwaves</a>.</p>
+                    <p>Code licensed under TODO</p>
+                </div>
+            </div>
+        </section>
+
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>Bootstrap Social Buttons</h1>
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 
-<p><strong>Clean (unofficial) social media buttons for Bootstrap using Font Awesome.</strong></p>
-
-<p><a href="http://noizwaves.github.io/bootstrap-social-buttons/">See a live example</a></p>
-
-<p>Bootstrap Social Buttons is a plugin/mixin for Twitter Bootstrap that provides great looking (unofficial) themes for various social media buttons.</p>
-
-<p>This works great with Font Awesome, which provides great looking icons for various social media actions.</p>
-
-<p>Themes provided include:</p>
-
-<ul>
-<li>Facebook</li>
-<li>Twitter</li>
-<li>Github</li>
-<li>Pinterest</li>
-<li>LinkedIn</li>
-<li>Google Plus</li>
-<li>Instragram</li>
-</ul><h2>Requirements</h2>
-
-<ul>
-<li>Twitter Bootstrap 2.3.1 (although older versions should be fine too).</li>
-<li>Font Awesome 3.0.2 (again, older versions should be fine).</li>
-</ul><h2>Installing</h2>
-
-<p>There is a LESS file named social-buttons.less that can be included with a custom Bootstrap build.</p>
-
-<p>Note: if you want to use Font Awesome, you should disable the icons mixin (by removing the sprites.less import in bootstrap.less).</p>
-
-<h2>Author</h2>
-
-<p><a href="https://github.com/noizwaves">Adam Neumann</a></p>
-
-<h3>Contributors</h3>
-
-<p>Please help and get involved!</p>
-
-<h3>Contributions</h3>
-
-<p>If you would like to contribute (adding new styles, refining old styles, bug fixes, etc), please:</p>
-
-<ul>
-<li>fork this project and make the changes</li>
-<li>add yourself to the list of contributors</li>
-<li>send me a pull request</li>
-</ul><h2>License</h2>
-
-<p>Copyright 2013 Adam Neumann</p>
-
-<p>TODO: pick license</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Bootstrap Social Buttons maintained by <a href="https://github.com/noizwaves">noizwaves</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-              <script type="text/javascript">
+          <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -104,7 +112,5 @@
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
-
   </body>
 </html>
