@@ -1,10 +1,10 @@
-# Bootstrap Social Buttons
+# Social Buttons for Twitter Bootstrap
 
 **Clean (unofficial) social media buttons for Bootstrap using Font Awesome.**
 
 [See a live example](http://noizwaves.github.io/bootstrap-social-buttons/)
 
-Bootstrap Social Buttons is a plugin/mixin for Twitter Bootstrap that provides great looking (unofficial) themes for various social media buttons.
+Social Buttons for Twitter Bootstrap is a plugin/mixin for Twitter Bootstrap that provides great looking (unofficial) themes for various social media buttons.
 
 This works great with Font Awesome, which provides great looking icons for various social media actions.
 
