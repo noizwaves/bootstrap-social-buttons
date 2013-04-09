@@ -22,7 +22,7 @@ Themes provided include:
 - Twitter Bootstrap 2.3.1 (although older versions should be fine too).
 - Font Awesome 3.0.2 (again, older versions should be fine).
 
-## Installing
+## Installation
 
 There is a LESS file named social-buttons.less that can be included with a custom Bootstrap build.
 
