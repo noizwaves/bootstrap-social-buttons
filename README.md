@@ -44,11 +44,15 @@ Note: if you want to use Font Awesome, you should disable the icons mixin (by re
 
 ### Contributors
 
+Shane McCarthy
+
+
 Please help and get involved!
 
 ### Contributions
 
 If you would like to contribute (adding new styles, refining old styles, bug fixes, etc), please:
+
 
 * fork this project and make the changes
 * add yourself to the list of contributors
