@@ -44,7 +44,7 @@ Note: if you want to use Font Awesome, you should disable the icons mixin (by re
 
 ### Contributors
 
-Shane McCarthy
+[Shane McCarthy][1]
 
 
 Please help and get involved!
@@ -56,7 +56,7 @@ If you would like to contribute (adding new styles, refining old styles, bug fix
 
 * fork this project and make the changes
 * add yourself to the list of contributors
-* send me a pull request
+* send a pull request
 
 ## License
 
@@ -75,3 +75,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
  [0]: https://github.com/noizwaves
+ [1]: https://github.com/illwrks
