@@ -35,7 +35,7 @@ section {
 /* From: http://twitter.github.io/bootstrap/examples/justified-nav.html */
 /* Main marketing message and sign up button */
 .jumbotron {
-    margin: 80px 0;
+    margin: 80px 0 60px;
     text-align: center;
 }
 .jumbotron h2 {
@@ -49,4 +49,9 @@ section {
 .jumbotron .btn {
     font-size: 21px;
     padding: 14px 24px;
+}
+
+.sharing {
+    margin-bottom: 20px;
+    text-align: center;
 }
