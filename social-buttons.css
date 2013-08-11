@@ -228,3 +228,36 @@
 .btn-instagram.active {
   background-color: #305777 \9;
 }
+
+.btn-dropbox {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #2e95e0;
+  *background-color: #2181cf;
+  background-image: -moz-linear-gradient(top, #37a3eb, #2181cf);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#37a3eb), to(#2181cf));
+  background-image: -webkit-linear-gradient(top, #37a3eb, #2181cf);
+  background-image: -o-linear-gradient(top, #37a3eb, #2181cf);
+  background-image: linear-gradient(to bottom, #37a3eb, #2181cf);
+  background-repeat: repeat-x;
+  border-color: #2181cf #2181cf #16588d;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff37a3eb', endColorstr='#ff2181cf', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-dropbox:hover,
+.btn-dropbox:focus,
+.btn-dropbox:active,
+.btn-dropbox.active,
+.btn-dropbox.disabled,
+.btn-dropbox[disabled] {
+  color: #ffffff;
+  background-color: #2181cf;
+  *background-color: #1d73b9;
+}
+
+.btn-dropbox:active,
+.btn-dropbox.active {
+  background-color: #1a66a3 \9;
+}
