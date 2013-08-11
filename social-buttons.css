@@ -261,3 +261,432 @@
 .btn-dropbox.active {
   background-color: #1a66a3 \9;
 }
+
+.btn-bitbucket {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #285991;
+  *background-color: #205081;
+  background-image: -moz-linear-gradient(top, #2d5f9c, #205081);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2d5f9c), to(#205081));
+  background-image: -webkit-linear-gradient(top, #2d5f9c, #205081);
+  background-image: -o-linear-gradient(top, #2d5f9c, #205081);
+  background-image: linear-gradient(to bottom, #2d5f9c, #205081);
+  background-repeat: repeat-x;
+  border-color: #205081 #205081 #112a44;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2d5f9c', endColorstr='#ff205081', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-bitbucket:hover,
+.btn-bitbucket:focus,
+.btn-bitbucket:active,
+.btn-bitbucket.active,
+.btn-bitbucket.disabled,
+.btn-bitbucket[disabled] {
+  color: #ffffff;
+  background-color: #205081;
+  *background-color: #1b436d;
+}
+
+.btn-bitbucket:active,
+.btn-bitbucket.active {
+  background-color: #163758 \9;
+}
+
+.btn-dribbble {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #de447f;
+  *background-color: #cb396f;
+  background-image: -moz-linear-gradient(top, #ea4c89, #cb396f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ea4c89), to(#cb396f));
+  background-image: -webkit-linear-gradient(top, #ea4c89, #cb396f);
+  background-image: -o-linear-gradient(top, #ea4c89, #cb396f);
+  background-image: linear-gradient(to bottom, #ea4c89, #cb396f);
+  background-repeat: repeat-x;
+  border-color: #cb396f #cb396f #91264e;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffea4c89', endColorstr='#ffcb396f', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-dribbble:hover,
+.btn-dribbble:focus,
+.btn-dribbble:active,
+.btn-dribbble.active,
+.btn-dribbble.disabled,
+.btn-dribbble[disabled] {
+  color: #ffffff;
+  background-color: #cb396f;
+  *background-color: #ba3163;
+}
+
+.btn-dribbble:active,
+.btn-dribbble.active {
+  background-color: #a62b59 \9;
+}
+
+.btn-flickr {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #f63198;
+  *background-color: #ff0084;
+  background-image: -moz-linear-gradient(top, #f051a5, #ff0084);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f051a5), to(#ff0084));
+  background-image: -webkit-linear-gradient(top, #f051a5, #ff0084);
+  background-image: -o-linear-gradient(top, #f051a5, #ff0084);
+  background-image: linear-gradient(to bottom, #f051a5, #ff0084);
+  background-repeat: repeat-x;
+  border-color: #ff0084 #ff0084 #b3005c;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff051a5', endColorstr='#ffff0084', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-flickr:hover,
+.btn-flickr:focus,
+.btn-flickr:active,
+.btn-flickr.active,
+.btn-flickr.disabled,
+.btn-flickr[disabled] {
+  color: #ffffff;
+  background-color: #ff0084;
+  *background-color: #e60077;
+}
+
+.btn-flickr:active,
+.btn-flickr.active {
+  background-color: #cc006a \9;
+}
+
+.btn-foursquare {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #079dcd;
+  *background-color: #0072b1;
+  background-image: -moz-linear-gradient(top, #0cbadf, #0072b1);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0cbadf), to(#0072b1));
+  background-image: -webkit-linear-gradient(top, #0cbadf, #0072b1);
+  background-image: -o-linear-gradient(top, #0cbadf, #0072b1);
+  background-image: linear-gradient(to bottom, #0cbadf, #0072b1);
+  background-repeat: repeat-x;
+  border-color: #0072b1 #0072b1 #004165;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0cbadf', endColorstr='#ff0072b1', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-foursquare:hover,
+.btn-foursquare:focus,
+.btn-foursquare:active,
+.btn-foursquare.active,
+.btn-foursquare.disabled,
+.btn-foursquare[disabled] {
+  color: #ffffff;
+  background-color: #0072b1;
+  *background-color: #006298;
+}
+
+.btn-foursquare:active,
+.btn-foursquare.active {
+  background-color: #00517e \9;
+}
+
+.btn-renren {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #3773ab;
+  *background-color: #33669a;
+  background-image: -moz-linear-gradient(top, #397cb6, #33669a);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#397cb6), to(#33669a));
+  background-image: -webkit-linear-gradient(top, #397cb6, #33669a);
+  background-image: -o-linear-gradient(top, #397cb6, #33669a);
+  background-image: linear-gradient(to bottom, #397cb6, #33669a);
+  background-repeat: repeat-x;
+  border-color: #33669a #33669a #204061;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff397cb6', endColorstr='#ff33669a', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-renren:hover,
+.btn-renren:focus,
+.btn-renren:active,
+.btn-renren.active,
+.btn-renren.disabled,
+.btn-renren[disabled] {
+  color: #ffffff;
+  background-color: #33669a;
+  *background-color: #2d5987;
+}
+
+.btn-renren:active,
+.btn-renren.active {
+  background-color: #264d74 \9;
+}
+
+.btn-skype {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #43bbe8;
+  *background-color: #00aff0;
+  background-image: -moz-linear-gradient(top, #70c3e2, #00aff0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#70c3e2), to(#00aff0));
+  background-image: -webkit-linear-gradient(top, #70c3e2, #00aff0);
+  background-image: -o-linear-gradient(top, #70c3e2, #00aff0);
+  background-image: linear-gradient(to bottom, #70c3e2, #00aff0);
+  background-repeat: repeat-x;
+  border-color: #00aff0 #00aff0 #0077a3;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff70c3e2', endColorstr='#ff00aff0', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-skype:hover,
+.btn-skype:focus,
+.btn-skype:active,
+.btn-skype.active,
+.btn-skype.disabled,
+.btn-skype[disabled] {
+  color: #ffffff;
+  background-color: #00aff0;
+  *background-color: #009cd7;
+}
+
+.btn-skype:active,
+.btn-skype.active {
+  background-color: #008abd \9;
+}
+
+.btn-stackexchange {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #3a70b0;
+  *background-color: #185397;
+  background-image: -moz-linear-gradient(top, #5184c1, #185397);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5184c1), to(#185397));
+  background-image: -webkit-linear-gradient(top, #5184c1, #185397);
+  background-image: -o-linear-gradient(top, #5184c1, #185397);
+  background-image: linear-gradient(to bottom, #5184c1, #185397);
+  background-repeat: repeat-x;
+  border-color: #185397 #185397 #0e2f55;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5184c1', endColorstr='#ff185397', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-stackexchange:hover,
+.btn-stackexchange:focus,
+.btn-stackexchange:active,
+.btn-stackexchange.active,
+.btn-stackexchange.disabled,
+.btn-stackexchange[disabled] {
+  color: #ffffff;
+  background-color: #185397;
+  *background-color: #154781;
+}
+
+.btn-stackexchange:active,
+.btn-stackexchange.active {
+  background-color: #113b6b \9;
+}
+
+.btn-trello {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #438ab4;
+  *background-color: #27709b;
+  background-image: -moz-linear-gradient(top, #569cc4, #27709b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#569cc4), to(#27709b));
+  background-image: -webkit-linear-gradient(top, #569cc4, #27709b);
+  background-image: -o-linear-gradient(top, #569cc4, #27709b);
+  background-image: linear-gradient(to bottom, #569cc4, #27709b);
+  background-repeat: repeat-x;
+  border-color: #27709b #27709b #18445e;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff569cc4', endColorstr='#ff27709b', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-trello:hover,
+.btn-trello:focus,
+.btn-trello:active,
+.btn-trello.active,
+.btn-trello.disabled,
+.btn-trello[disabled] {
+  color: #ffffff;
+  background-color: #27709b;
+  *background-color: #226187;
+}
+
+.btn-trello:active,
+.btn-trello.active {
+  background-color: #1d5372 \9;
+}
+
+.btn-tumblr {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #34526e;
+  *background-color: #2a4763;
+  background-image: -moz-linear-gradient(top, #3a5976, #2a4763);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3a5976), to(#2a4763));
+  background-image: -webkit-linear-gradient(top, #3a5976, #2a4763);
+  background-image: -o-linear-gradient(top, #3a5976, #2a4763);
+  background-image: linear-gradient(to bottom, #3a5976, #2a4763);
+  background-repeat: repeat-x;
+  border-color: #2a4763 #2a4763 #13202d;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3a5976', endColorstr='#ff2a4763', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-tumblr:hover,
+.btn-tumblr:focus,
+.btn-tumblr:active,
+.btn-tumblr.active,
+.btn-tumblr.disabled,
+.btn-tumblr[disabled] {
+  color: #ffffff;
+  background-color: #2a4763;
+  *background-color: #223a51;
+}
+
+.btn-tumblr:active,
+.btn-tumblr.active {
+  background-color: #1b2d3f \9;
+}
+
+.btn-vk {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #50739a;
+  *background-color: #426187;
+  background-image: -moz-linear-gradient(top, #5a7fa6, #426187);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5a7fa6), to(#426187));
+  background-image: -webkit-linear-gradient(top, #5a7fa6, #426187);
+  background-image: -o-linear-gradient(top, #5a7fa6, #426187);
+  background-image: linear-gradient(to bottom, #5a7fa6, #426187);
+  background-repeat: repeat-x;
+  border-color: #426187 #426187 #293c54;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5a7fa6', endColorstr='#ff426187', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-vk:hover,
+.btn-vk:focus,
+.btn-vk:active,
+.btn-vk.active,
+.btn-vk.disabled,
+.btn-vk[disabled] {
+  color: #ffffff;
+  background-color: #426187;
+  *background-color: #3a5576;
+}
+
+.btn-vk:active,
+.btn-vk.active {
+  background-color: #314865 \9;
+}
+
+.btn-weibo {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #f14f4f;
+  *background-color: #e64141;
+  background-image: -moz-linear-gradient(top, #f85959, #e64141);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f85959), to(#e64141));
+  background-image: -webkit-linear-gradient(top, #f85959, #e64141);
+  background-image: -o-linear-gradient(top, #f85959, #e64141);
+  background-image: linear-gradient(to bottom, #f85959, #e64141);
+  background-repeat: repeat-x;
+  border-color: #e64141 #e64141 #c11919;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff85959', endColorstr='#ffe64141', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-weibo:hover,
+.btn-weibo:focus,
+.btn-weibo:active,
+.btn-weibo.active,
+.btn-weibo.disabled,
+.btn-weibo[disabled] {
+  color: #ffffff;
+  background-color: #e64141;
+  *background-color: #e32a2a;
+}
+
+.btn-weibo:active,
+.btn-weibo.active {
+  background-color: #d81c1c \9;
+}
+
+.btn-xing {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #155c5d;
+  *background-color: #074c4d;
+  background-image: -moz-linear-gradient(top, #1f6768, #074c4d);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1f6768), to(#074c4d));
+  background-image: -webkit-linear-gradient(top, #1f6768, #074c4d);
+  background-image: -o-linear-gradient(top, #1f6768, #074c4d);
+  background-image: linear-gradient(to bottom, #1f6768, #074c4d);
+  background-repeat: repeat-x;
+  border-color: #074c4d #074c4d #010707;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1f6768', endColorstr='#ff074c4d', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-xing:hover,
+.btn-xing:focus,
+.btn-xing:active,
+.btn-xing.active,
+.btn-xing.disabled,
+.btn-xing[disabled] {
+  color: #ffffff;
+  background-color: #074c4d;
+  *background-color: #053536;
+}
+
+.btn-xing:active,
+.btn-xing.active {
+  background-color: #031e1e \9;
+}
+
+.btn-youtube {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #a72121;
+  *background-color: #6e0610;
+  background-image: -moz-linear-gradient(top, #cd332d, #6e0610);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cd332d), to(#6e0610));
+  background-image: -webkit-linear-gradient(top, #cd332d, #6e0610);
+  background-image: -o-linear-gradient(top, #cd332d, #6e0610);
+  background-image: linear-gradient(to bottom, #cd332d, #6e0610);
+  background-repeat: repeat-x;
+  border-color: #6e0610 #6e0610 #250205;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcd332d', endColorstr='#ff6e0610', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-youtube:hover,
+.btn-youtube:focus,
+.btn-youtube:active,
+.btn-youtube.active,
+.btn-youtube.disabled,
+.btn-youtube[disabled] {
+  color: #ffffff;
+  background-color: #6e0610;
+  *background-color: #56050c;
+}
+
+.btn-youtube:active,
+.btn-youtube.active {
+  background-color: #3e0309 \9;
+}
