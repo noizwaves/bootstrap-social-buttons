@@ -5,6 +5,11 @@
 // The colours
 // --------------------------------------------------
 
+
+// Standard colours
+@btnText:                           #fff;
+@btnTextAlt:                        #000;
+
 // Facebook colours from ???
 @btnFacebookBackground:             #3B5998;
 @btnFacebookBackgroundHighlight:    #133783;
@@ -15,9 +20,7 @@
 
 // Github colours from http://ghbtns.com/
 @btnGithubBackground:               #fafafa;
-@btnGithubBackgroundHighlight:      #e6e6e6;
-@btnGithubText:                     #000000;
-@btnGithubTextShadow:               0 0.7px 0 rgba(0,0,0,.1);
+@btnGithubBackgroundHighlight:      #ccc;
 
 // Pinterest colours from http://pinterest.com/
 @btnPinterestBackground:            #d62229;
@@ -97,86 +100,88 @@
 // The social buttons
 // --------------------------------------------------
 
+// (????, background colour,   )
+
 .btn-facebook {
-  .buttonBackground(@btnFacebookBackground, @btnFacebookBackgroundHighlight);
+  .button-variant(@btnText; @btnFacebookBackgroundHighlight; @btnFacebookBackgroundHighlight);
 }
 
 .btn-twitter {
-  .buttonBackground(@btnTwitterBackground, @btnTwitterBackgroundHighlight);
+  .button-variant(@btnText; @btnTwitterBackground; @btnTwitterBackgroundHighlight);
 }
 
 .btn-github {
-  .buttonBackground(@btnGithubBackground, @btnGithubBackgroundHighlight, @btnGithubText, @btnGithubTextShadow);
+  .button-variant(@btnTextAlt; @btnGithubBackground; @btnGithubBackgroundHighlight);
 }
 
 .btn-pinterest {
-  .buttonBackground(@btnPinterestBackground, @btnPinterestBackgroundHighlight);
+  .button-variant(@btnText; @btnPinterestBackground; @btnPinterestBackgroundHighlight);
 }
 
 .btn-linkedin {
-  .buttonBackground(@btnLinkedinBackground, @btnLinkedinBackgroundHighlight);
+  .button-variant(@btnText; @btnLinkedinBackground; @btnLinkedinBackgroundHighlight);
 }
 
 .btn-google-plus {
-  .buttonBackground(@btnGooglePlusBackground, @btnGooglePlusBackgroundHighlight);
+  .button-variant(@btnText; @btnGooglePlusBackground; @btnGooglePlusBackgroundHighlight);
 }
 
 .btn-instagram {
-  .buttonBackground(@btnInstagramBackground, @btnInstagramBackgroundHighlight);
+  .button-variant(@btnText; @btnInstagramBackground; @btnInstagramBackgroundHighlight);
 }
 
 .btn-dropbox {
-  .buttonBackground(@btnDropboxBackground, @btnDropboxBackgroundHighlight);
+  .button-variant(@btnText; @btnDropboxBackground; @btnDropboxBackgroundHighlight);
 }
 
 .btn-bitbucket {
-  .buttonBackground(@btnBitbucketBackground, @btnBitbucketBackgroundHighlight);
+  .button-variant(@btnText; @btnBitbucketBackground; @btnBitbucketBackgroundHighlight);
 }
 
 .btn-dribbble {
-  .buttonBackground(@btnDribbbleBackground, @btnDribbbleBackgroundHighlight);
+  .button-variant(@btnText; @btnDribbbleBackground; @btnDribbbleBackgroundHighlight);
 }
 
 .btn-flickr {
-  .buttonBackground(@btnFlickrBackground, @btnFlickrBackgroundHighlight);
+  .button-variant(@btnText; @btnFlickrBackground; @btnFlickrBackgroundHighlight);
 }
 
 .btn-foursquare {
-  .buttonBackground(@btnFoursquareBackground, @btnFoursquareBackgroundHighlight);
+  .button-variant(@btnText; @btnFoursquareBackground; @btnFoursquareBackgroundHighlight);
 }
 
 .btn-renren {
-  .buttonBackground(@btnRenrenBackground, @btnRenrenBackgroundHighlight);
+  .button-variant(@btnText; @btnRenrenBackground; @btnRenrenBackgroundHighlight);
 }
 
 .btn-skype {
-  .buttonBackground(@btnSkypeBackground, @btnSkypeBackgroundHighlight);
+  .button-variant(@btnText; @btnSkypeBackground; @btnSkypeBackgroundHighlight);
 }
 
 .btn-stackexchange {
-  .buttonBackground(@btnStackExchangeBackground, @btnStackExchangeBackgroundHighlight);
+  .button-variant(@btnText; @btnStackExchangeBackground; @btnStackExchangeBackgroundHighlight);
 }
 
 .btn-trello {
-  .buttonBackground(@btnTrelloBackground, @btnTrelloBackgroundHighlight);
+  .button-variant(@btnText; @btnTrelloBackground; @btnTrelloBackgroundHighlight);
 }
 
 .btn-tumblr {
-  .buttonBackground(@btnTumblrBackground, @btnTumblrBackgroundHighlight);
+  .button-variant(@btnText; @btnTumblrBackground; @btnTumblrBackgroundHighlight);
 }
 
 .btn-vk {
-  .buttonBackground(@btnVkBackground, @btnVkBackgroundHighlight);
+  .button-variant(@btnText; @btnVkBackground; @btnVkBackgroundHighlight);
 }
 
 .btn-weibo {
-  .buttonBackground(@btnWeiboBackground, @btnWeiboBackgroundHighlight);
+  .button-variant(@btnText; @btnWeiboBackground; @btnWeiboBackgroundHighlight);
 }
 
 .btn-xing {
-  .buttonBackground(@btnXingBackground, @btnXingBackgroundHighlight);
+  .button-variant(@btnText; @btnXingBackground; @btnXingBackgroundHighlight);
 }
 
 .btn-youtube {
-  .buttonBackground(@btnYoutubeBackground, @btnYoutubeBackgroundHighlight);
+  .button-variant(@btnText; @btnYoutubeBackground; @btnYoutubeBackgroundHighlight);
 }
