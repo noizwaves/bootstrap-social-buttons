@@ -16,11 +16,12 @@ Themes provided include:
 - LinkedIn
 - Google Plus
 - Instragram
+- and many more
 
 ## Requirements
 
 - Twitter Bootstrap 2.3.1 (although older versions should be fine too).
-- Font Awesome 3.0.2 (again, older versions should be fine).
+- Font Awesome 3.2.1 (again, older versions should be fine).
 
 ## Installation
 
