@@ -1,6 +1,6 @@
-# Social Buttons for Twitter Bootstrap 2 & 3
+# Social Buttons for Twitter Bootstrap (v1.0.0)
 
-**Clean (unofficial) social media buttons for Bootstrap using Font Awesome.**
+**Clean (unofficial) social media buttons for Bootstrap 2 and 3 using Font Awesome.**
 
 [See a live example](http://noizwaves.github.io/bootstrap-social-buttons/)
 
@@ -20,7 +20,7 @@ Themes provided include:
 
 ## Requirements
 
-- Twitter Bootstrap 2.3.1 (although older versions should be fine too) or Twitter Bootstrap 3 RC1.
+- Twitter Bootstrap 2.3.2 (although older versions should be fine too) or Twitter Bootstrap 3.
 - Font Awesome 3.2.1 (again, older versions should be fine).
 
 ## Installation
