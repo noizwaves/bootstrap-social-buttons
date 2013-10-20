@@ -15,10 +15,17 @@
 .btn-facebook:hover,
 .btn-facebook:focus,
 .btn-facebook:active,
-.btn-facebook.active {
+.btn-facebook.active,
+.open .dropdown-toggle.btn-facebook {
   color: #ffffff;
   background-color: #0e285f;
   border-color: #0b214e;
+}
+
+.btn-facebook:active,
+.btn-facebook.active,
+.open .dropdown-toggle.btn-facebook {
+  background-image: none;
 }
 
 .btn-facebook.disabled,
@@ -49,10 +56,17 @@ fieldset[disabled] .btn-facebook.active {
 .btn-twitter:hover,
 .btn-twitter:focus,
 .btn-twitter:active,
-.btn-twitter.active {
+.btn-twitter.active,
+.open .dropdown-toggle.btn-twitter {
   color: #ffffff;
   background-color: #2095c0;
   border-color: #014d82;
+}
+
+.btn-twitter:active,
+.btn-twitter.active,
+.open .dropdown-toggle.btn-twitter {
+  background-image: none;
 }
 
 .btn-twitter.disabled,
@@ -83,10 +97,17 @@ fieldset[disabled] .btn-twitter.active {
 .btn-github:hover,
 .btn-github:focus,
 .btn-github:active,
-.btn-github.active {
+.btn-github.active,
+.open .dropdown-toggle.btn-github {
   color: #000000;
   background-color: #e6e6e6;
   border-color: #adadad;
+}
+
+.btn-github:active,
+.btn-github.active,
+.open .dropdown-toggle.btn-github {
+  background-image: none;
 }
 
 .btn-github.disabled,
@@ -117,10 +138,17 @@ fieldset[disabled] .btn-github.active {
 .btn-pinterest:hover,
 .btn-pinterest:focus,
 .btn-pinterest:active,
-.btn-pinterest.active {
+.btn-pinterest.active,
+.open .dropdown-toggle.btn-pinterest {
   color: #ffffff;
   background-color: #b31c22;
   border-color: #751015;
+}
+
+.btn-pinterest:active,
+.btn-pinterest.active,
+.open .dropdown-toggle.btn-pinterest {
+  background-image: none;
 }
 
 .btn-pinterest.disabled,
@@ -151,10 +179,17 @@ fieldset[disabled] .btn-pinterest.active {
 .btn-linkedin:hover,
 .btn-linkedin:focus,
 .btn-linkedin:active,
-.btn-linkedin.active {
+.btn-linkedin.active,
+.open .dropdown-toggle.btn-linkedin {
   color: #ffffff;
   background-color: #53a8d3;
   border-color: #33708e;
+}
+
+.btn-linkedin:active,
+.btn-linkedin.active,
+.open .dropdown-toggle.btn-linkedin {
+  background-image: none;
 }
 
 .btn-linkedin.disabled,
@@ -185,10 +220,17 @@ fieldset[disabled] .btn-linkedin.active {
 .btn-google-plus:hover,
 .btn-google-plus:focus,
 .btn-google-plus:active,
-.btn-google-plus.active {
+.btn-google-plus.active,
+.open .dropdown-toggle.btn-google-plus {
   color: #ffffff;
   background-color: #ca3523;
   border-color: #92291d;
+}
+
+.btn-google-plus:active,
+.btn-google-plus.active,
+.open .dropdown-toggle.btn-google-plus {
+  background-image: none;
 }
 
 .btn-google-plus.disabled,
@@ -219,10 +261,17 @@ fieldset[disabled] .btn-google-plus.active {
 .btn-instagram:hover,
 .btn-instagram:focus,
 .btn-instagram:active,
-.btn-instagram.active {
+.btn-instagram.active,
+.open .dropdown-toggle.btn-instagram {
   color: #ffffff;
   background-color: #5583a7;
   border-color: #2d526f;
+}
+
+.btn-instagram:active,
+.btn-instagram.active,
+.open .dropdown-toggle.btn-instagram {
+  background-image: none;
 }
 
 .btn-instagram.disabled,
@@ -253,10 +302,17 @@ fieldset[disabled] .btn-instagram.active {
 .btn-dropbox:hover,
 .btn-dropbox:focus,
 .btn-dropbox:active,
-.btn-dropbox.active {
+.btn-dropbox.active,
+.open .dropdown-toggle.btn-dropbox {
   color: #ffffff;
   background-color: #1791e3;
   border-color: #19609a;
+}
+
+.btn-dropbox:active,
+.btn-dropbox.active,
+.open .dropdown-toggle.btn-dropbox {
+  background-image: none;
 }
 
 .btn-dropbox.disabled,
@@ -287,10 +343,17 @@ fieldset[disabled] .btn-dropbox.active {
 .btn-bitbucket:hover,
 .btn-bitbucket:focus,
 .btn-bitbucket:active,
-.btn-bitbucket.active {
+.btn-bitbucket.active,
+.open .dropdown-toggle.btn-bitbucket {
   color: #ffffff;
   background-color: #244c7c;
   border-color: #143250;
+}
+
+.btn-bitbucket:active,
+.btn-bitbucket.active,
+.open .dropdown-toggle.btn-bitbucket {
+  background-image: none;
 }
 
 .btn-bitbucket.disabled,
@@ -321,10 +384,17 @@ fieldset[disabled] .btn-bitbucket.active {
 .btn-dribbble:hover,
 .btn-dribbble:focus,
 .btn-dribbble:active,
-.btn-dribbble.active {
+.btn-dribbble.active,
+.open .dropdown-toggle.btn-dribbble {
   color: #ffffff;
   background-color: #e62771;
   border-color: #9d2954;
+}
+
+.btn-dribbble:active,
+.btn-dribbble.active,
+.open .dropdown-toggle.btn-dribbble {
+  background-image: none;
 }
 
 .btn-dribbble.disabled,
@@ -355,10 +425,17 @@ fieldset[disabled] .btn-dribbble.active {
 .btn-flickr:hover,
 .btn-flickr:focus,
 .btn-flickr:active,
-.btn-flickr.active {
+.btn-flickr.active,
+.open .dropdown-toggle.btn-flickr {
   color: #ffffff;
   background-color: #ed2b92;
   border-color: #c20064;
+}
+
+.btn-flickr:active,
+.btn-flickr.active,
+.open .dropdown-toggle.btn-flickr {
+  background-image: none;
 }
 
 .btn-flickr.disabled,
@@ -389,10 +466,17 @@ fieldset[disabled] .btn-flickr.active {
 .btn-foursquare:hover,
 .btn-foursquare:focus,
 .btn-foursquare:active,
-.btn-foursquare.active {
+.btn-foursquare.active,
+.open .dropdown-toggle.btn-foursquare {
   color: #ffffff;
   background-color: #0a9ab8;
   border-color: #004b74;
+}
+
+.btn-foursquare:active,
+.btn-foursquare.active,
+.open .dropdown-toggle.btn-foursquare {
+  background-image: none;
 }
 
 .btn-foursquare.disabled,
@@ -423,10 +507,17 @@ fieldset[disabled] .btn-foursquare.active {
 .btn-renren:hover,
 .btn-renren:focus,
 .btn-renren:active,
-.btn-renren.active {
+.btn-renren.active,
+.open .dropdown-toggle.btn-renren {
   color: #ffffff;
   background-color: #2f6797;
   border-color: #24486c;
+}
+
+.btn-renren:active,
+.btn-renren.active,
+.open .dropdown-toggle.btn-renren {
+  background-image: none;
 }
 
 .btn-renren.disabled,
@@ -457,10 +548,17 @@ fieldset[disabled] .btn-renren.active {
 .btn-skype:hover,
 .btn-skype:focus,
 .btn-skype:active,
-.btn-skype.active {
+.btn-skype.active,
+.open .dropdown-toggle.btn-skype {
   color: #ffffff;
   background-color: #4eb5db;
   border-color: #0082b3;
+}
+
+.btn-skype:active,
+.btn-skype.active,
+.open .dropdown-toggle.btn-skype {
+  background-image: none;
 }
 
 .btn-skype.disabled,
@@ -491,10 +589,17 @@ fieldset[disabled] .btn-skype.active {
 .btn-stackexchange:hover,
 .btn-stackexchange:focus,
 .btn-stackexchange:active,
-.btn-stackexchange.active {
+.btn-stackexchange.active,
+.open .dropdown-toggle.btn-stackexchange {
   color: #ffffff;
   background-color: #3d70ac;
   border-color: #103662;
+}
+
+.btn-stackexchange:active,
+.btn-stackexchange.active,
+.open .dropdown-toggle.btn-stackexchange {
+  background-image: none;
 }
 
 .btn-stackexchange.disabled,
@@ -525,10 +630,17 @@ fieldset[disabled] .btn-stackexchange.active {
 .btn-trello:hover,
 .btn-trello:focus,
 .btn-trello:active,
-.btn-trello.active {
+.btn-trello.active,
+.open .dropdown-toggle.btn-trello {
   color: #ffffff;
   background-color: #3e88b3;
   border-color: #1b4d6a;
+}
+
+.btn-trello:active,
+.btn-trello.active,
+.open .dropdown-toggle.btn-trello {
+  background-image: none;
 }
 
 .btn-trello.disabled,
@@ -559,10 +671,17 @@ fieldset[disabled] .btn-trello.active {
 .btn-tumblr:hover,
 .btn-tumblr:focus,
 .btn-tumblr:active,
-.btn-tumblr.active {
+.btn-tumblr.active,
+.open .dropdown-toggle.btn-tumblr {
   color: #ffffff;
   background-color: #2d445b;
   border-color: #182838;
+}
+
+.btn-tumblr:active,
+.btn-tumblr.active,
+.open .dropdown-toggle.btn-tumblr {
+  background-image: none;
 }
 
 .btn-tumblr.disabled,
@@ -593,10 +712,17 @@ fieldset[disabled] .btn-tumblr.active {
 .btn-vk:hover,
 .btn-vk:focus,
 .btn-vk:active,
-.btn-vk.active {
+.btn-vk.active,
+.open .dropdown-toggle.btn-vk {
   color: #ffffff;
   background-color: #4b6b8c;
   border-color: #2e435e;
+}
+
+.btn-vk:active,
+.btn-vk.active,
+.open .dropdown-toggle.btn-vk {
+  background-image: none;
 }
 
 .btn-vk.disabled,
@@ -627,10 +753,17 @@ fieldset[disabled] .btn-vk.active {
 .btn-weibo:hover,
 .btn-weibo:focus,
 .btn-weibo:active,
-.btn-weibo.active {
+.btn-weibo.active,
+.open .dropdown-toggle.btn-weibo {
   color: #ffffff;
   background-color: #f63232;
   border-color: #cf1b1b;
+}
+
+.btn-weibo:active,
+.btn-weibo.active,
+.open .dropdown-toggle.btn-weibo {
+  background-image: none;
 }
 
 .btn-weibo.disabled,
@@ -661,10 +794,17 @@ fieldset[disabled] .btn-weibo.active {
 .btn-xing:hover,
 .btn-xing:focus,
 .btn-xing:active,
-.btn-xing.active {
+.btn-xing.active,
+.open .dropdown-toggle.btn-xing {
   color: #ffffff;
   background-color: #164849;
   border-color: #021515;
+}
+
+.btn-xing:active,
+.btn-xing.active,
+.open .dropdown-toggle.btn-xing {
+  background-image: none;
 }
 
 .btn-xing.disabled,
@@ -695,10 +835,17 @@ fieldset[disabled] .btn-xing.active {
 .btn-youtube:hover,
 .btn-youtube:focus,
 .btn-youtube:active,
-.btn-youtube.active {
+.btn-youtube.active,
+.open .dropdown-toggle.btn-youtube {
   color: #ffffff;
   background-color: #ac2b26;
   border-color: #340308;
+}
+
+.btn-youtube:active,
+.btn-youtube.active,
+.open .dropdown-toggle.btn-youtube {
+  background-image: none;
 }
 
 .btn-youtube.disabled,
