@@ -21,7 +21,7 @@ Themes provided include:
 ## Requirements
 
 - Twitter Bootstrap 2.3.2 (although older versions should be fine too) or Twitter Bootstrap 3.
-- Font Awesome 3.2.1 (again, older versions should be fine).
+- Font Awesome 4.0.3 (again, older versions should be fine).
 
 ## Installation
 
