@@ -6,7 +6,7 @@
 
 Social Buttons for Twitter Bootstrap is a plugin/mixin for Twitter Bootstrap that provides great looking (unofficial) themes for various social media buttons.
 
-This works great with Font Awesome, which provides great looking icons for various social media actions.
+This works great with Font Awesome, which provides great looking icons for various <b>social media</b> actions.
 
 Themes provided include:
 - Facebook
